@@ -59,7 +59,7 @@ services:
     ports:
       - 1080:1080
 
-  hub:
+  selenium-hub:
       image: selenium/hub
       ports:
         - "4444:4444"
